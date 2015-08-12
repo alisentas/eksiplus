@@ -1,0 +1,26 @@
+.icon-up-open::before {
+	content: "şükela!";
+}
+.icon-down-open::before {
+	content: "çok kötü";
+}
+
+#entry-list footer .icon {
+	font-size: 1em !important;
+}
+
+.voted::before {
+	text-shadow: none !important;
+	color: #FF9100 !important;
+}
+
+.rate-options * {
+	color: #2A62AA !important;
+	opacity: 1 !important;
+}
+
+.feedback {
+	opacity: 1 !important;
+}
+
+/* mavi = #2A62AA */

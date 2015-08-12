@@ -1,0 +1,4 @@
+/* Hide videos in page */
+#video, #videos {
+    display: none !important;
+}

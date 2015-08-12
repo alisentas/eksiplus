@@ -1,0 +1,4 @@
+/* hide ads and white-space they make */
+.ad-medyanet {
+    display: none !important;
+}

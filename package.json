@@ -1,0 +1,102 @@
+{
+  "title": "eksi+",
+  "name": "eksiplus",
+  "version": "1.0.2",
+  "description": "Ekşisözlük kullanımını kolaylaştıran bir eklenti",
+  "main": "index.js",
+  "author": "Ali Şentaş",
+  "id": "@eksiplus",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "MIT",
+  "permissions": {"private-browsing": true},
+  "preferences": [
+    {
+        "description": "Entrylerin üzerindeki sıra numaralari, eski ekşisözlük stiliyle gösterilsin mi?",
+        "name": "entryNums",
+        "type": "bool",
+        "value": false,
+        "title": "Entry Numalarandırma"
+    },
+    {
+    "name": "entryNum",
+    "type": "menulist",
+    "title": "Sayfa başı entry",
+    "description": "Sayfa başına gösterilen entry sayısı, entry numaralandırma için gerekli",
+    "value": 10,
+    "options": [
+        {
+            "value": 10,
+            "label": "10"
+        },
+        {
+            "value": 25,
+            "label": "25"
+        },
+        {
+            "value": 50,
+            "label": "50"
+        },
+        {
+            "value": 75,
+            "label": "75"
+        },
+        {
+            "value": 100,
+            "label": "100"
+        }
+      ]
+    },
+    {
+        "description": "Eski tip şükela!, çok kötü butonları gösterilsin mi?",
+        "name": "oldButtons",
+        "type": "bool",
+        "value": false,
+        "title": "Eski tip butonlar"
+    },
+    {
+        "description": "Bu seçeneği seçtiğinizde spoilerlar otomatik olarak gizlenip tıklayınca açılır?",
+        "name": "hideSpoilers",
+        "type": "bool",
+        "value": false,
+        "title": "Spoiler gizleme"
+    },
+    {
+        "description": "Sayfayı aşaği kaydırdığınızda birlikte kayan başlık?",
+        "name": "fixedTitle",
+        "type": "bool",
+        "value": false,
+        "title": "Kayan başlıklar",
+        "hidden": true
+    },
+    {
+        "description": "Bu seçeneği seçtiğinizde başlıkların altına şükela modu linki eklenir?",
+        "name": "sukela",
+        "type": "bool",
+        "value": false,
+        "title": "Şükela Linkleri"
+    },
+    {
+        "description": "Sosyal paylaşım ikonları gizlensin mi?",
+        "name": "hideSocialIcons",
+        "type": "bool",
+        "value": false,
+        "title": "Sosyal paylaşım ikonlarını gizle"
+    },
+    {
+        "description": "Bu seçeneği seçtiğinizde sağdaki konulu video kısmı ve başlık üstündeki videolar gizlenir?",
+        "name": "hideVideos",
+        "type": "bool",
+        "value": false,
+        "title": "Konulu videoları gizle"
+    },
+    {
+        "description": "Adblock vb. eklentiler tarafından gizlendiği halde sayfanın üstünde yer kaplayan reklamları gizlemek için bu seçeneği seçin?",
+        "name": "hideAds",
+        "type": "bool",
+        "value": false,
+        "title": "Konulu videoları gizle"
+    }]
+}
