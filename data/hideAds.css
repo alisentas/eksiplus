@@ -1,4 +1,4 @@
 /* hide ads and white-space they make */
-.ad-medyanet {
+.ad-medyanet, .sponsored {
     display: none !important;
 }

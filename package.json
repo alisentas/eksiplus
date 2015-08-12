@@ -10,6 +10,7 @@
     "firefox": ">=38.0a1",
     "fennec": ">=38.0a1"
   },
+  "homepage": "https://github.com/alisentas/eksiplus",
   "license": "MIT",
   "permissions": {"private-browsing": true},
   "preferences": [

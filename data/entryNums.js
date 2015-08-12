@@ -25,7 +25,7 @@ function entryNumbers(start){
 	$("#entry-list > li > .content").each(function(){
 		// create element
 		var num = document.createElement("div");
-		num.className = "entryNum";
+		num.className = "eksiplus-entryNum";
 		var numtext = document.createTextNode("" + i);
 		num.appendChild(numtext);
 

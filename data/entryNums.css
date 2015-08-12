@@ -1,4 +1,5 @@
-.entryNum {
+/* Entry numbers rules */
+.eksiplus-entryNum {
   width: 100%;
   font-size: 0.8 em;
   border-bottom: 1px solid #DEDEDE;
@@ -6,6 +7,7 @@
   margin-bottom: 5px;
 }
 
+/* Delete the gray border below entries */
 #entry-list > li {
 	border-bottom: none !important;
 }
