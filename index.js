@@ -59,12 +59,6 @@ pageMod.PageMod({
   }
 });
 
-// this function returns the type of a page
-function getPageType(){
-	// type regexes
-	sukelaReg = 
-}
-
 /* add "ekside ara" to context menu
  it redirects to the search page, or an article if found */
 var ekside_ara = contextMenu.Item({
