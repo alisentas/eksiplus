@@ -80,6 +80,13 @@
         "title": "Şükela Linkleri"
     },
     {
+        "description": "Bu seçeneği seçtiğinizde sayfadaki resim linkleri tıklanıp yüklenebilir hale gelir? Şimdilik sadece jpg, png ve gif uzantılı resimlerle çalışır",
+        "name": "loadImages",
+        "type": "bool",
+        "value": false,
+        "title": "Açılır resimler"
+    },
+    {
         "description": "Sosyal paylaşım ikonları gizlensin mi?",
         "name": "hideSocialIcons",
         "type": "bool",

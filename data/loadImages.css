@@ -1,0 +1,15 @@
+.eksiplus-image {
+    display: inline;
+}
+
+.eksiplus-image-content {
+    display: inline;
+}
+
+/* toggle imitates the anchors styling */
+.eksiplus-image-toggle {
+    display: inline;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}

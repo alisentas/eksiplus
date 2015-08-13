@@ -49,6 +49,12 @@ if (preferences.hideVideos)
 if (preferences.hideAds)
 	styleFiles.push("./hideAds.css");
 
+// import load images module
+if (preferences.loadImages){
+	styleFiles.push("./loadImages.css");
+	scriptFiles.push("./loadImages.js");
+}
+
 // page modification module call with included scripts, styles and preferences
 pageMod.PageMod({
   include: "*.eksisozluk.com",

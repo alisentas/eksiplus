@@ -1,5 +1,6 @@
 # Ignore git
 .git
+.gitignore
 
 # Ignore any zip or xpi files
 *.zip
