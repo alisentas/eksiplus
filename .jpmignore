@@ -5,3 +5,6 @@
 # Ignore any zip or xpi files
 *.zip
 *.xpi
+
+# ignore yourself, just like I do to myself
+.jpmignore
