@@ -87,6 +87,13 @@
         "title": "Açılır resimler"
     },
     {
+        "description": "Bu seçenek arama yerine girdiğiniz metnin uzunluğunu yanında gösterme, yazar isminin yanındaki açılır menüden başlıktaki diğer yazılarına ulaşma gibi küçük ek özellikler ekler.",
+        "name": "utilities",
+        "type": "bool",
+        "value": false,
+        "title": "Ek özellikler"
+    },
+    {
         "description": "Sosyal paylaşım ikonları gizlensin mi?",
         "name": "hideSocialIcons",
         "type": "bool",

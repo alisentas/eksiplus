@@ -8,8 +8,8 @@ var preferences = require("sdk/simple-prefs").prefs;
 var contextMenu = require("sdk/context-menu");
 
 // script and style files to be included
-var styleFiles = ["./alertColor.css"];
-var scriptFiles = ["./jquery.js", "./utils.js"];
+var styleFiles = [];
+var scriptFiles = ["./jquery.js"];
 
 // show entry nums if selected
 if (preferences.entryNums){
@@ -53,6 +53,11 @@ if (preferences.hideAds)
 if (preferences.loadImages){
 	styleFiles.push("./loadImages.css");
 	scriptFiles.push("./loadImages.js");
+}
+
+if (preferences.utilities){
+	styleFiles.push("./utils.css");
+	scriptFiles.push("./utils.js");
 }
 
 // page modification module call with included scripts, styles and preferences
