@@ -7,8 +7,8 @@ if ($(".sub-title-menu").length > 0){
 	var sukuAnchor = document.createElement("a");
 
 	// append the anchor to the sub-title-menu
-	sukuAnchor.href = url += "?a=nice";
-	sukuAnchor.innerHTML = "şükela modu";
+	sukuAnchor.href = url + "?a=nice";
+	sukuAnchor.textContent = "şükela modu";
 	sukuDiv.appendChild(sukuAnchor);
 	$(".sub-title-menu").append(sukuDiv);
 }

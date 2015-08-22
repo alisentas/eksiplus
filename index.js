@@ -9,7 +9,7 @@ var contextMenu = require("sdk/context-menu");
 
 // script and style files to be included
 var styleFiles = ["./alertColor.css"];
-var scriptFiles = ["./jquery.js"];
+var scriptFiles = ["./jquery.js", "./utils.js"];
 
 // show entry nums if selected
 if (preferences.entryNums){
