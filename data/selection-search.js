@@ -7,6 +7,6 @@ self.on("context", function(){
 
 self.on("click", function () {
     var text = window.getSelection().toString();
-    textts = text.replace(" ", "+").replace(/[.,!?']/g, "");
+    text = text.replace(" ", "+").replace(/[.,!?']/g, "").toLowerCase();
     window.location = "http://eksisozluk.com/?q=" + text;
 });

@@ -4,11 +4,11 @@ var numex = /\b[0-9]{1,}?\b/g
 // include page numbers
 if ($(".showall").length == 1){
 	if($(".showall").index() == 2)
-		entryNumbers(1 + parseInt(numex.exec($(".showall").html())[0]));
+		entryNumbers(1 + parseInt(numex.exec($(".showall").text())[0]));
 	else
 		entryNumbers(1);
 }else if($(".showall").length == 2){
-	entryNumbers(1 + parseInt(numex.exec($(".showall").first().html())[0]));
+	entryNumbers(1 + parseInt(numex.exec($(".showall").first().text())[0]));
 }else{
 	if($(".pager").length > 0)
 		entryNumbers(1 + (parseInt($(".pager").attr("data-currentpage")) - 1) * self.options.entryNum);
