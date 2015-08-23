@@ -1,5 +1,7 @@
 // regexp to find image links
-var imageRegex = /http:\/\/.*\.[jpg|png|gif]+/g;
+// found in http://stackoverflow.com/questions/169625/regex-to-check-if-valid-url-that-ends-in-jpg-png-or-gif#answer-169631
+// previous one wasn't working correct
+var imageRegex = /(?:([^:/?#]+):)?(?:\/\/([^/?#]*))?([^?#]*\.(?:jpg|gif|png))(?:\?([^#]*))?(?:#(.*))?/g;
 
 /**
     1. Check all links in entries
