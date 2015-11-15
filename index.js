@@ -60,6 +60,11 @@ if (preferences.utilities){
 	scriptFiles.push("./utils.js");
 }
 
+if (preferences.entryToggle){
+	styleFiles.push("./entryToggle.css");
+	scriptFiles.push("./entryToggle.js");
+}
+
 // page modification module call with included scripts, styles and preferences
 pageMod.PageMod({
   include: "*.eksisozluk.com",
@@ -67,6 +72,7 @@ pageMod.PageMod({
   contentStyleFile: styleFiles,
   contentScriptOptions: {
     entryNum: preferences.entryNum,
+	entryToggle: preferences.entryToggle
   }
 });
 

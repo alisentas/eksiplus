@@ -25,12 +25,24 @@ function entryNumbers(start){
 	$("#entry-list > li > .content").each(function(){
 		// create element
 		var num = document.createElement("div");
+		var content = document.createElement("div");
 		num.className = "eksiplus-entryNum";
+		content.className = "eksiplus-content";
+		content.innerHTML = $(this).html();
+		$(this).html("");
 		var numtext = document.createTextNode("" + i);
 		num.appendChild(numtext);
+		if(self.options.entryToggle){
+			var toggle = document.createElement("span");
+			toggle.className = "eksiplus-toggle";
+			var toggleText = document.createTextNode(" [-]");
+			toggle.appendChild(toggleText);
+			num.appendChild(toggle);
+		}
 
 		// prepend element before content text
-		$(this).prepend(num);
+		$(this).append(num);
+		$(this).append(content);
 		i++;
 	});
 }

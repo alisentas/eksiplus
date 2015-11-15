@@ -19,7 +19,7 @@ $(".content .url").each(function(){
 });
 
 /* bind the image loading process to the toggle */
-$(".eksiplus-image-toggle").click(function(e){
+$(".eksiplus-image-toggle").on("click", function(e){
     // show the image in a block
     $(this).parent().css("display", "block");
 
@@ -28,10 +28,12 @@ $(".eksiplus-image-toggle").click(function(e){
     eksiplus_image.className = "eksiplus-image";
     eksiplus_image.src = $(this).data("rel");
 
+    // this is for mobile devices, if image width is longer than device width, resize it
+    eksiplus_image.onload = function(){
+        if(this.width > $("#entry-list").width() - 10)
+            this.width = ($("#entry-list").width() - 10);
+    }
+
     // append the image
     $(this).parent().append(eksiplus_image);
-
-    // this is for mobile devices, if image width is longer than device width, shorten it
-    if($(eksiplus_image).width() > $("#entry-list").width() - 10)
-        $(eksiplus_image).width($("#entry-list").width() - 10)
 });

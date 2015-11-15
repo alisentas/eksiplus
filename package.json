@@ -1,7 +1,7 @@
 {
   "title": "eksi+",
   "name": "eksiplus",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Ekşisözlük kullanımını kolaylaştıran bir eklenti",
   "main": "index.js",
   "author": "Ali Şentaş",
@@ -92,6 +92,13 @@
         "type": "bool",
         "value": false,
         "title": "Ek özellikler"
+    },
+    {
+        "description": "Bu seçeneği seçtiğinizde entryleri reddit misali açılır/kapanır yapabilirsiniz.",
+        "name": "entryToggle",
+        "type": "bool",
+        "value": false,
+        "title": "Açılır/kapanır rntryler"
     },
     {
         "description": "Sosyal paylaşım ikonları gizlensin mi?",
