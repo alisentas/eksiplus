@@ -1,9 +1,0 @@
-#title-fixed {
-    position: fixed;
-    top: 65px;
-    left: 260px;
-    width: 695px;
-    display:none;
-    background-color: #EBEBEB;
-    z-index: 1;
-}
