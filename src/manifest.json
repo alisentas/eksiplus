@@ -14,8 +14,7 @@
     "gecko": {
       "id": "borderify@example.com",
       "strict_min_version": "42.0",
-      "strict_max_version": "50.*",
-      "update_url": "https://example.com/updates.json"
+      "strict_max_version": "50.*"
     }
   }
 
