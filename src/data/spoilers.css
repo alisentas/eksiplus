@@ -1,0 +1,8 @@
+.eksiplus-spoiler-content {
+    display: none;
+}
+
+.eksiplus-spoiler-toggle {
+    color: blue;
+    cursor: pointer;
+}

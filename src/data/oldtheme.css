@@ -1,0 +1,69 @@
+header {
+  border-top: none !important;
+  background-color: black !important;
+}
+
+header * {
+  color: #d4d4d4 !important;
+}
+
+#search-textbox {
+  color: black !important;
+}
+
+#search-form button {
+  margin-left: 5px;
+  background-color: #ffc600 !important;
+  color: black !important;
+}
+
+#search-form button:after {
+    content: "getir"
+}
+
+#search-form button svg {
+  display: none;
+}
+
+body {
+  background-color: #ebebeb;
+}
+
+#logo a {
+  background-image: url("logo.png")
+}
+
+#title * {
+  color: #0027b8;
+  font-family: Calibri,Helvetica,Verdana,sans-serif;
+  line-height: 1.2;
+}
+
+li.active {
+  border-bottom-color: #ebebeb !important;
+}
+
+#partial-index li.active a {
+  color: black !important;
+}
+
+#index-section li a {
+  color: #0027b8;
+}
+
+#partial-index h2 {
+  color: black;
+}
+
+.topic-list li {
+  border-bottom: 1px solid #d7d7d7;
+}
+
+.topic-list li a {
+  font-size: 12px;
+  font-family: Verdana
+}
+
+.pager a {
+  color: #0027b8;
+}
