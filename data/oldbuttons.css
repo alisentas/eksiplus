@@ -1,26 +1,15 @@
-.icon-up-open::before {
-	content: "şükela!";
-}
-.icon-down-open::before {
-	content: "çok kötü";
+a.like::after {
+  content: "şükela"
 }
 
-#entry-list footer .icon {
-	font-size: 1em !important;
+a.dislike:after {
+  content: "çok kötü"
 }
 
-.voted::before {
-	text-shadow: none !important;
-	color: #FF9100 !important;
+a.like svg, a.dislike svg {
+	display: none;
 }
 
-.rate-options * {
-	color: #2A62AA !important;
-	opacity: 1 !important;
+a.dislike {
+	margin-left: 10px;
 }
-
-.feedback {
-	opacity: 1 !important;
-}
-
-/* mavi = #2A62AA */

@@ -33,11 +33,6 @@ if (preferences.hideSpoilers){
   scriptFiles.push("./spoilers.js");
 }
 
-// put sukela buttons below title
-if (preferences.sukela){
-  scriptFiles.push("./sukela.js");
-}
-
 // hide stuff
 	// hide social icons
 if (preferences.hideSocialIcons)
@@ -55,14 +50,17 @@ if (preferences.loadImages){
 	scriptFiles.push("./loadImages.js");
 }
 
-if (preferences.utilities){
-	styleFiles.push("./utils.css");
-	scriptFiles.push("./utils.js");
-}
-
 if (preferences.entryToggle){
 	styleFiles.push("./entryToggle.css");
 	scriptFiles.push("./entryToggle.js");
+}
+
+if (preferences.oldTheme){
+	styleFiles.push("./oldtheme.css");
+}
+
+if (preferences.hideReadMore){
+	styleFiles.push("./hidereadmore.css");
 }
 
 // page modification module call with included scripts, styles and preferences
@@ -70,6 +68,7 @@ pageMod.PageMod({
   include: "*.eksisozluk.com",
   contentScriptFile: scriptFiles,
   contentStyleFile: styleFiles,
+  contentScriptWhen: "ready",
   contentScriptOptions: {
     entryNum: preferences.entryNum,
 	entryToggle: preferences.entryToggle

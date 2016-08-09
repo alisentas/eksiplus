@@ -1,7 +1,7 @@
 {
   "title": "eksi+",
   "name": "eksiplus",
-  "version": "1.0.6",
+  "version": "1.1.0",
   "description": "Ekşisözlük kullanımını kolaylaştıran bir eklenti",
   "main": "index.js",
   "author": "Ali Şentaş",
@@ -51,11 +51,25 @@
       ]
     },
     {
+        "description": "Tema değişimdinden önceki tema. (Gece görüşü modunda çalışmaz.",
+        "name": "oldTheme",
+        "type": "bool",
+        "value": false,
+        "title": "Eski dandik tema"
+    },
+    {
         "description": "Eski tip şükela!, çok kötü butonları gösterilsin mi?",
         "name": "oldButtons",
         "type": "bool",
         "value": false,
         "title": "Eski tip butonlar"
+    },
+    {
+        "description": "Entryler otomatik olarak açılsın mı?",
+        "name": "hideReadMore",
+        "type": "bool",
+        "value": false,
+        "title": "Devamını oku seçeneğini gizleme"
     },
     {
         "description": "Bu seçeneği seçtiğinizde spoilerlar otomatik olarak gizlenip tıklayınca açılır?",
@@ -73,13 +87,6 @@
         "hidden": true
     },
     {
-        "description": "Bu seçeneği seçtiğinizde başlıkların altına şükela modu linki eklenir?",
-        "name": "sukela",
-        "type": "bool",
-        "value": false,
-        "title": "Şükela Linkleri"
-    },
-    {
         "description": "Bu seçeneği seçtiğinizde sayfadaki resim linkleri tıklanıp yüklenebilir hale gelir? Şimdilik sadece jpg, png ve gif uzantılı resimlerle çalışır",
         "name": "loadImages",
         "type": "bool",
@@ -91,7 +98,8 @@
         "name": "utilities",
         "type": "bool",
         "value": false,
-        "title": "Ek özellikler"
+        "title": "Ek özellikler",
+        "hidden": true
     },
     {
         "description": "Bu seçeneği seçtiğinizde entryleri reddit misali açılır/kapanır yapabilirsiniz.",
