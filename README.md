@@ -1,5 +1,7 @@
 #eksi+ Firefox Addon
 
+[![Build Status](https://travis-ci.org/alisentas/eksiplus.svg?branch=master)](https://travis-ci.org/alisentas/eksiplus)
+
 To set up last version, download all files in this repo and:
 ```sh
 # install nodejs
