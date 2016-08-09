@@ -1,4 +1,0 @@
-/* hide facebook, twitter buttons */
-.share-links, #topic-share-menu {
-	display: none !important;
-}
