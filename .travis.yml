@@ -9,5 +9,4 @@ before_script:
   - npm install -g web-ext
 
 script:
-  - cd src
-  - web-ext build
+  - make
